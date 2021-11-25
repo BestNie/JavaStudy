@@ -3,7 +3,7 @@ package lesson2;
 import java.lang.annotation.*;
 import java.lang.reflect.Field;
 
-//这是测试git新增的东西
+//这是测试git新增的东西,这是main分支改的东西
 public class TeseReleact {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException {
         Class c1 = Class.forName("lesson2.Person");
