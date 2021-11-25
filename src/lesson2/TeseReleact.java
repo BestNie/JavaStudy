@@ -3,7 +3,7 @@ package lesson2;
 import java.lang.annotation.*;
 import java.lang.reflect.Field;
 
-
+//这是测试git新增的东西
 public class TeseReleact {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException {
         Class c1 = Class.forName("lesson2.Person");
@@ -17,6 +17,7 @@ public class TeseReleact {
 
         //通过反射活动属性的注解
         Field age = c1.getDeclaredField("age");
+        System.out.println("1");
         MyField field = age.getAnnotation(MyField.class);
         System.out.println(field.age());
         System.out.println(field.name());
