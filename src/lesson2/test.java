@@ -1,4 +1,4 @@
 package lesson2;
 
-public class test {
+ class test2 {
 }
