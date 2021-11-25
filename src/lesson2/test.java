@@ -1,4 +1,5 @@
 package lesson2;
 
- class test2 {
+ public class test {
+  sout
 }
